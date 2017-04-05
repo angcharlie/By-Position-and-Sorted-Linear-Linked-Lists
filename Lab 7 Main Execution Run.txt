@@ -1,0 +1,64 @@
+Linked List Lab: Implemented by Charlie Ang
+Randomly generate list of 10 values and convert into a sorted list
+
+listbyposition: 10 items
+1: 69
+2: 65
+3: 68
+4: 96
+5: 22
+6: 49
+7: 67
+8: 51
+9: 61
+10: 63
+
+sortedlist: 10 items
+1: 22
+2: 49
+3: 51
+4: 61
+5: 63
+6: 65
+7: 67
+8: 68
+9: 69
+10: 96
+
+Correlation between locations of items in listbyposition and sortedlist
+listbyposition[  1] =    69 --> sortedlist[  9]
+listbyposition[  2] =    65 --> sortedlist[  6]
+listbyposition[  3] =    68 --> sortedlist[  8]
+listbyposition[  4] =    96 --> sortedlist[ 10]
+listbyposition[  5] =    22 --> sortedlist[  1]
+listbyposition[  6] =    49 --> sortedlist[  2]
+listbyposition[  7] =    67 --> sortedlist[  7]
+listbyposition[  8] =    51 --> sortedlist[  3]
+listbyposition[  9] =    61 --> sortedlist[  4]
+listbyposition[ 10] =    63 --> sortedlist[  5]
+
+Modified original sortedlist after removing the first two items:
+sortedlist: 8 items
+1: 51
+2: 61
+3: 63
+4: 65
+5: 67
+6: 68
+7: 69
+8: 96
+
+
+Modified sortedlistcopy after inserting the value (-10):
+sortedlistcopy: 11 items
+1: -10
+2: 22
+3: 49
+4: 51
+5: 61
+6: 63
+7: 65
+8: 67
+9: 68
+10: 69
+11: 96
